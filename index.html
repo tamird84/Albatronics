@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albatronics</title>
+    <link rel="stylesheet" href="style_albatronics.css">
+    <link rel="icon" type="image/png" href="pics/logo.png" />
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="perma"> 
+
+            <div class="burger_wrap">
+                <span class="burger"></span>
+            </div>
+            <span class="phone">+972-8-6408000</span>
+
+            <a href="#whyus" class="nav_options">Why Us?</a>
+            <a href="#services" class="nav_options">Services</a>
+            <a href="#technology" class="nav_options">Technology</a>
+            <a href="#products" class="nav_options">Products</a>
+            <a href="#about" class="nav_options">About Us</a>
+            <a href="#careers" class="nav_options">Careers</a>
+            <a href="#contacts" class="nav_options">Contacts</a>
+
+        </div>
+
+    </nav>
+
+    <main>
+       
+        <div class="spacer spacer1"></div>
+        <div class="logo">
+            <img src="pics/logo.png" alt="Broken Image" class="logo_image">
+        </div>
+
+
+        <div class="catchphrase">
+            <div>
+                <br>
+                If you can dream it, we can do it
+            </div>
+            <br>
+            <a href="#contactForm" class="contactus">CONTACT US</a>
+            <a href="#aboutus" class="learnmore">LEARN MORE</a>
+        </div>
+
+        <div class="spacer">
+
+        </div>
+
+        <div class="albatronics" id="about">
+            <div>
+                <h1>Albatronics</h1>
+                Albatronics provides hardware and software applications and supplies R&D for leading telecommunications, military and high-tech companies in Israel including: Israel Aircraft Industries (ELTA, MLM, Lahav, MMG), Mobileye, Runcom, Verint. Albatronics has vast experience in defining, designing and developing Real Time (RT) applications up to system prototype and small scale production. Albatronics' competitive advantage resides in its capacity as an experienced and dedicated research facility. This enables the company to provide an efficient and rapid response to changing market requirements and supply custom-made products supported by in depth research. Our team will listen to your needs and will create the best solution for you.
+            </div>
+            <div>
+                <img src="pics/hands.jpg" alt="Image Not Found">
+            </div>
+
+        </div>
+
+        <div class="worlds"></div>
+
+        <div class="spacer"></div>
+
+        <div class="whyus" id="whyus">
+
+            <div>
+                <h3>Our client's vision is our own</h3>We work closely with our clients to understand their specific engineering requirements. All of our solutions are fit-for-purpose and customised to suit your individual needs.
+            </div>
+            
+            <div>
+                <h3>Full development cycle</h3>
+                Albatronics is involved in the preliminary stages of project development up until the prototype's delivery and integration.
+            </div>
+
+            <div>
+                <h3>Unparalleled quality and craftsmanship</h3>
+                By harnessing its professional staff, applying its unique know-how and leveraging its position as a leading developer of cutting edge telecommunications hardware, Albatronics enables high-tech companies to achieve quality work in short periods of time.
+            </div>
+
+            <div>
+                <h3>Advanced engineering capabilities</h3>
+                Albatronics' competitive advantage resides in its capacity as an experienced and dedicated research facility. This enables the company to provide an efficient and rapid response to changing market requirements and supply custom-made products supported by in depth research.
+            </div>
+
+        </div>
+
+        <div class="spacer"></div>
+
+        <div id="ourservice">
+
+            <div class="fpga">
+                <h3>FPGA Design</h3>
+                Our team's vast knowledge in FPGA design and our close working relations with our customers throughout the process will supply you with the highest level products in the market. Thanks to our long time experience in this field we can provide complex designs for your necessities.
+            </div>
+
+            <div class="spacer"></div>
+
+            <div class="systemdesign">
+                <h3>System Design and Development</h3>
+                We specialize in developing systems combining mechanical, hardware and software elements. Based your requirements, the software is designed, QC tested and only then developed together with in-line source documentation for easy maintenance and high upgradability. The software is delivered with a Board Support Package, software designs and GUI.
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+        
+        <footer>
+            <div id="contacts">
+                <h1>Contacts</h1>
+                <h2 >Phone</h2>
+                <span>
+                    +972-8-6408000
+                </span> <br>
+                <h2 >Email</h2>
+                <span>
+                    info@albatronics.com
+                </span> <br>
+                <h2 >Address</h2>
+                <div style="display: inline-block";>Omer Industrial Park <br>
+                P.O Box 3016 <br>
+                ISRAEL 84965</div>
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.270909322627!2d34.834073364220295!3d31.268600816661383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x150267138b0d9115%3A0x61e120635062a0fc!2sOmer%20Industrial%20Park%2C%20Omer%2C%20Israel!5e0!3m2!1sen!2sat!4v1675186557821!5m2!1sen!2sat"  style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="form" id="contactForm">
+                <form action="">
+
+                    <input type="text" placeholder="Full name" required> <br><br>
+                    <input type="text" name="phone" id="phone" placeholder="Phone number"><br><br>
+                    <input type="email" name="email" id="email" placeholder="Email address"><br><br>
+                    <textarea name="" id="message" cols="60" rows="10"></textarea><br>
+
+                    <button onclick="modal()">SEND</button>
+                
+                </form>                
+
+            </div>
+        </footer>
+
+         <!-- the burger manu on opening will show this block on the whole screen -->
+         <div class="burger_open">
+            <a href="#whyus" class="nav_options">Why Us?</a><br>
+            <a href="#services" class="nav_options">Services</a><br>
+            <a href="#technology" class="nav_options">Technology</a><br>
+            <a href="#products" class="nav_options">Products</a><br>
+            <a href="#about" class="nav_options">About Us</a><br>
+            <a href="#careers" class="nav_options">Careers</a><br>
+            <a href="#contacts" class="nav_options">Contacts</a>
+        </div>
+        
+
+        <script>
+            var button = document.querySelector("button")
+            function modal() {
+                alert("Are you sure you want to send?")
+            }
+
+            var button = document.querySelector(".burger_wrap");
+            var menu = document.querySelector(".burger_open");
+            button.addEventListener("touchstart", opening);
+            
+            function opening(){
+                console.log("It was touched")
+                if(menu.style.display == "none") {
+                    menu.style.display = "block";
+                    menu.style.transform = "translateX(0px)";
+                } else {
+                    menu.style.display = "none";
+                    menu.style.transform = "translateX(-350px);"
+                }
+            }
+
+        </script>
+    </main>
+    
+    
+   
+
+</body>
+</html>
