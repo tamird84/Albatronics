@@ -173,9 +173,11 @@
                 if(menu.style.display == "none") {
                     menu.style.display = "block";
                     menu.style.transform = "translateX(0px)";
+                    body.style.overflow = "hidden";
                 } else {
                     menu.style.display = "none";
-                    menu.style.transform = "translateX(-350px);"
+                    menu.style.transform = "translateX(-350px);";
+                    body.style.overflow = "auto";
                 }
             }
 
