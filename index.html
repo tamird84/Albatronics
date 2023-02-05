@@ -167,7 +167,7 @@
             var button = document.querySelector(".burger_wrap");
             console.log(button)
             var menu = document.querySelector(".burger_open");
-            button.addEventListener("click", opening);
+            button.addEventListener("touchstart", opening);
             
             function opening(){
                 if(menu.style.display == "none") {
